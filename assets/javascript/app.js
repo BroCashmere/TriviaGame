@@ -89,22 +89,22 @@ function showQuestions() {
       $("#questions").append(questions[i].question).append("<br><br>");
       for (let j = 0; j < questions[i].choices.length; j++) {
         $("#questions").append('<input type="radio">' + questions[i].choices[j]).append("<br><br>");
-//if answer checkbox is correct
-        if (input.checked === questions[i].answer) {
-            right++
-          }
+// //if answer checkbox is correct
+//         if (input.checked === questions[i].answer) {
+//             right++
+//           }
 
-//if answer checkbox has not been clicked
-          if (input.checked=== false) {
-            unanswered++;
-          }
-          else wrong++;  
-        }
-      }
+// //if answer checkbox has not been clicked
+//           if (input.checked=== false) {
+//             unanswered++;
+//           }
+//           else wrong++;  
+//         }
+//       }
     }
 
   
-  }
+  
 
 function displayStats() {
   $("#countdown").html(`<h2>Time Remaining: 30</h2>`)
