@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 
-.start-button {
+#start {
     text-align: center;
 }
 
@@ -17,4 +17,17 @@ button {
 
 body {
     background-image: url("../images/joy.jpg")
+}
+
+#questions {
+    font-weight: bold;
+    text-align:center;
+}
+
+#countdown {
+    text-align:center;
+}
+
+#submit {
+    text-align:center;
 }
