@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    background-color: lightblue;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+.start-button {
+    text-align: center;
+}
+
+button {
+    font-weight:bold;
+}
+
+body {
+    background-image: url("../images/joy.jpg")
+}
