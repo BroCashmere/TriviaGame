@@ -11,35 +11,17 @@ window.onload = function() {
 };
 
 let questions = [{
-  question: 'Who flips it and skips it?',
-  choices: ['Artanis','Diablo','Greymane','Muradin'],
-  answer: "Diablo",
-  image:"assets/images/diablo.jpg"
+  question: 'Who is our first President?',
+  choices: ['Washington','Trump','Nixon','JFK'],
+  answer: "Washington",
 }, {
-  question: 'HOOO OHHHHHHH?',
-  choices: ['Li-Ming','Valeera','Sonya','Zeratul'],
-  answer: "Sonya",
-  image:"assets/images/sonya.jpg"
+  question: 'Where is the US Capital?',
+  choices: ['Seattle','Houston','D.C.','San Diego'],
+  answer: "D.C.",
 }, {
-  question: 'What is the best ult for Varian?',
-  choices: ['The Colossus of Clout','Colossus Smash','Taunt','Twin Blades'],
-  answer: "Twin Blades",
-  image: "assets/images/twinblades.jpg"
-}, {
-  question: 'What is a type of Girl Scout cookie and also a team comp?',
-  choices: ['Thin Mints','Trios','Samoas','Peanut Butter Sandwitch'],
-  answer: "Thin Mints",
-  image: "assets/images/thinmints.jpg"
-}, {
-  question: 'Which announcer sounds like a pedophile?',
-  choices: ['El Guapo','Brightwing','Deckard Cain','Alarak'],
-  answer: "Brightwing",
-  image: "assets/images/alarak.jpg"
-}, {
-  question: 'Who do surfers like the best?',
-  choices: ['Poseidon','Triton','Ragnaros','Plankton'],
-  answer: "Ragnaros",
-  image: "assets/images/ragnaros.jpg"
+  question: 'What is the national animal?',
+  choices: ['Tiger','Dog','Cat','Eagle'],
+  answer: "Eagle",
 }
 ];
 
@@ -95,9 +77,10 @@ function showQuestions() {
 //           }
 
 // //if answer checkbox has not been clicked
-//           if (input.checked=== false) {
+//           if (input.checked === false) {
 //             unanswered++;
 //           }
+//otherwise, mark as wrong
 //           else wrong++;  
 //         }
 //       }
